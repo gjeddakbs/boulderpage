@@ -174,17 +174,24 @@ background-image: url("https://www.transparenttextures.com/patterns/cartographer
   padding-bottom: 8px;
   }
   .logo-text {
+    margin-top: 0;
+    margin-left: 0;
+    justify-content: center;
     flex-wrap: wrap;
    display: flex;
     text-align: center;
-    
+  }
+  .logo-text img {
+    height: 800%;
+    width: 80%;
   }
   .logo-text h1 {
+    margin: 0;
     flex-basis: 100%;
   }
   .calltoaction {
-    background-image: url("klatrecrop.jpg");
-    size: none;
+    background-image: url("./klatrecrop.jpg");
+    
     background-size: cover;
     margin: auto;
     display: flex;
