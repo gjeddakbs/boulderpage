@@ -1,5 +1,5 @@
 import React from "react";
-import EmailIcon from '@material-ui/icons/Email';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Contact() {
