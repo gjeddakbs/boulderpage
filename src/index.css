@@ -56,8 +56,17 @@ h1 {
   flex-grow: 1;
 }
 .menu li {
+  
   display: inline;
   padding-right: 10px;
+}
+
+li a {
+   text-decoration: none;
+   color: white;
+}
+li a:hover {
+  text-decoration: underline;
 }
 
 section {
@@ -131,7 +140,9 @@ background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
   justify-content: space-around;
   text-align: center;
 }
-
+.sectionheader {
+  flex-wrap: nowrap;
+}
 .appsection img {
 
  height: 500px;
@@ -150,6 +161,7 @@ background-image: url("https://www.transparenttextures.com/patterns/cartographer
   background-color: #191C20;
 
 }
+
 
 @media(max-width: 850px) {
   header {

@@ -5,7 +5,7 @@ import applelogo from "../apple.svg";
 
 function CallToAction() {
 return <section className="calltoaction">
-<div className="ctabox">
+<div className="ctabox" id="download">
 <p>Take your climbing to the next peak. Start collecting your stats today!</p>
 <div className="buttons">
 <button className="googlebutton"><img src={googlelogo} alt="Google button"/></button>
