@@ -1,5 +1,4 @@
 import React from "react";
-import blackGif from "../gifblack.gif";
 import registerGif from "../register.gif";
 import graphsGif from "../graphs.gif";
 import logGif from "../log.gif";
