@@ -1,21 +1,24 @@
 import React from "react";
 import blackGif from "../gifblack.gif";
+import registerGif from "../register.gif";
+import graphsGif from "../graphs.gif";
+import logGif from "../log.gif";
 
 function AppSection()  {
 return <section className="appsection">
 <div className="gifsection">
-    <img src={blackGif} alt="gif of app"></img>
+    <img src={registerGif} alt="gif of app"></img>
     <h3>Register climb</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate neque nunc, vel porta felis porta id. Aliquam sed tincidunt.</p>
+    <p>For each sendt boulder, register the grade climbed.</p>
     </div>
     <div className="gifsection">
-    <img src={blackGif} alt="gif of app"></img>
-    <h3>Stats</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate neque nunc, vel porta felis porta id. Aliquam sed tincidunt.</p>
+    <img src={graphsGif} alt="gif of app"></img>
+    <h3>Stats & Graphs</h3>
+    <p>Keep track of your progress with extensive statistics and graphs.</p>
     </div><div className="gifsection">
-    <img src={blackGif} alt="gif of app"></img>
-    <h3>Graphs</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate neque nunc, vel porta felis porta id. Aliquam sed tincidunt.</p>
+    <img src={logGif} alt="gif of app"></img>
+    <h3>Training log</h3>
+    <p>Each climb is visible in your training log </p>
     </div>
     
 

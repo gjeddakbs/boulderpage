@@ -1,5 +1,7 @@
 body {
+  color:white;
   margin: 0;
+   
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +12,194 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+ 
+background-color: #191C20;
+
+  display: flex;
+  
+  height: 100px;
+  
+ 
+}
+
+
+h1 {
+  
+  padding: 1% 0% 1% 0%;
+  display: inline-block;
+
+}
+
+.logo-text {
+  display: flex;
+  /* margin:auto; */
+  flex-grow: 2;
+  margin-left: 25px;
+  align-items: center;
+  font-size: 2em;
+
+}
+
+
+.logo-text img {
+  width: 100px;
+  height: 100%;
+ 
+}
+
+.menu {
+  margin:auto;
+  text-align: center;
+  flex-grow: 1;
+}
+.menu li {
+  display: inline;
+  padding-right: 10px;
+}
+
+section {
+  padding: 20px 60px;
+}
+
+.calltoaction  {
+  display: flex;
+  height: 800px;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1564769662533-4f00a87b4056?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1414&q=80");
+  background-repeat: no-repeat;
+  
+}
+
+
+.ctabox {
+  /* #191C20 */
+background: rgba(25, 28, 32, 0.5);
+  margin-top:8em;
+  height:fit-content;
+  border-style: ridge;
+  width: 400px;
+  border: 1px solid white;
+  
+}
+.ctabox p {
+  color:white;
+  text-align: center;
+  padding: 10px;
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: capitalize;
+  
+}
+.buttons {
+  display: flex;
+  text-align: center;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: nowrap;
+  
+}
+.googlebutton, .applebutton {
+  flex: 1;
+  appearance: none;
+  background: none;
+  border: none;
+  
+  flex-wrap: nowrap;
+  
+}
+.googlebutton img{
+  
+height: 80%;
+width: 80%;
+}
+.applebutton img {
+ 
+  height: 65%; 
+  width: 65%;
+}
+
+.appsection {
+background-color: #fff;
+background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  display: flex;
+  color: black;
+  margin: auto;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.appsection img {
+  /* border: 1rem solid black; */
+ height: 500px;
+}
+
+.about {
+background-color: #191c20;
+background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-color: #191C20;
+}
+
+.contact {
+
+  background-color: #191C20;
+
+}
+
+@media(max-width: 850px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    text-align: center;
+    height: auto;
+    /* margin:auto; */
+    justify-self: center;
+  }
+  ul {
+    padding-left: 0;
+  }
+  .menu {
+  flex-basis: 100%;
+  padding-left: 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8px;
+  }
+  .logo-text {
+    flex-wrap: wrap;
+   display: flex;
+    text-align: center;
+    
+  }
+  .logo-text h1 {
+    flex-basis: 100%;
+  }
+  .calltoaction {
+    background-image: url("klatrecrop.jpg");
+    size: none;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+  }
+  .ctabox p {
+    font-size: 2.2em;
+  }
+ 
+}
+
+@media(max-width: 1250px) {
+ .appsection {
+
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
 }
