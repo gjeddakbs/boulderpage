@@ -210,14 +210,14 @@ text-align: center;
 
 
 
-@media(max-width: 850px) {
+@media(max-width: 1100px) {
 
 p {
   font-size: 1em;
 }
 
 .gifsection {
-    display: flex;
+    display: block;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -232,6 +232,7 @@ p {
 
 .featuregif img {
   justify-self: center;
+  width: auto;
 }
   header {
     display: flex;
@@ -243,6 +244,7 @@ p {
   }
   ul {
     padding-left: 0;
+  
   }
   .menu {
   flex-basis: 100%;
@@ -282,11 +284,11 @@ p {
  
 }
 
-@media(max-width: 1250px) {
+/* @media(max-width: 1250px) {
  .gifsection {
     display: block;
     justify-content: center;
     text-align: center;
-  }
-
-}
+  } */
+/* 
+} */
