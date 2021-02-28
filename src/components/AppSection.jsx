@@ -17,7 +17,7 @@ return <section className="appsection" id="features">
     </div>
     <div className="featuregif">
     <h3>Stats & Graphs</h3>
-    <p>Keep track of your progress with the help of statistics and graphs.</p>
+    <p>Keep track of your progress with easy to read statistics and graphs.</p>
     
     <img src={graphsGif} alt="gif of app"></img>
     
