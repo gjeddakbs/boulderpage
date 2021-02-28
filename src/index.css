@@ -89,7 +89,7 @@ section {
   display: flex;
   height: 800px;
   background-size: cover;
-  background-image: url("./bakgrunn.jpg");
+  background-image: url("./bakgrunncropped.jpg");
   background-repeat: no-repeat;
   
 }
@@ -270,7 +270,7 @@ p {
     flex-basis: 100%;
   }
   .calltoaction {
-    background-image: url("./klatrecrop.jpg");
+    background-image: url("./klatrecropped.jpg");
     
     background-size: cover;
     margin: auto;
