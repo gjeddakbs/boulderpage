@@ -1,13 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Bouldering",
+  "name": "Boulder tracker page",
   "icons": [
 
-    {
-      "src": "bouldering.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
+
   ],
   "start_url": ".",
   "display": "standalone",

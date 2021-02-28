@@ -154,8 +154,8 @@ background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   
   color: black;
-  text-align: start;
-  margin-bottom: 50px;
+  
+  
 }
 .gifsection {
 flex-direction: row;
@@ -164,6 +164,7 @@ align-items: center;
 display: flex;
 justify-content: space-around;
 }
+
 .sectionheader {
   font-weight: 300;
   margin:  15px 0;
@@ -173,7 +174,8 @@ justify-content: space-around;
 }
 .appsection img {
 
- height: 500px;
+ height: 550px;
+ width: 100%;
 
 }
 .featuregif {
@@ -214,18 +216,30 @@ p {
   font-size: 1em;
 }
 
+.gifsection {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ 
+}
+
 .featuregif {
+
+  height: auto;
   width: auto;
 }
 
+.featuregif img {
+  justify-self: center;
+}
   header {
     display: flex;
     flex-wrap: wrap;
     align-items:center;
     text-align: center;
     height: auto;
-    /* margin:auto; */
-    justify-self: center;
+ 
   }
   ul {
     padding-left: 0;
