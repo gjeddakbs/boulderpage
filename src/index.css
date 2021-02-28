@@ -2,9 +2,6 @@ body {
   color:white;
   margin: 0;
    font-family: 'Nunito', 'Segoe UI', 'Roboto', 'Ubuntu',  sans-serif;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 300;
@@ -16,23 +13,16 @@ code {
 }
 
 header {
- 
-background-color: #191C20;
-
+  background-color: #191C20;
   display: flex;
-  
   height: 100px;
-  
- 
 }
-
 
 h1 {
-  
   padding: 1% 0% 1% 0%;
   display: inline-block;
-
 }
+
 h3 {
   font-size: 2em;
 }
@@ -40,24 +30,22 @@ h3 {
 hr {
 width:50%
 }
+
 p {
   font-size: 1.2em;
 }
+
 .logo-text {
   display: flex;
-  /* margin:auto; */
   flex-grow: 2;
   margin-left: 25px;
   align-items: center;
   font-size: 2em;
-
 }
-
 
 .logo-text img {
   width: 100px;
   height: 100%;
- 
 }
 
 .menu {
@@ -65,25 +53,27 @@ p {
   text-align: center;
   flex-grow: 1;
 }
+
 .menu li {
-  
   display: inline;
   padding-right: 10px;
 }
 
 li a {
+  font-size: 1.5em;
    text-decoration: none;
    color: white;
 }
+
 li a:hover {
   text-decoration: underline;
 }
 
-
-
 section {
   padding: 20px 60px;
 }
+
+/* Call to action section */
 
 .calltoaction  {
   display: flex;
@@ -91,14 +81,12 @@ section {
   background-size: cover;
   background-image: url("./bakgrunncropped.jpg");
   background-repeat: no-repeat;
-  
 }
 
 
 .ctabox {
-  
   box-shadow: 2px 2px 3px rgba(25, 28, 32);
-background: rgba(25, 28, 32, 0.5);
+  background: rgba(25, 28, 32, 0.5);
   margin-top:8em;
   height:fit-content;
   border-style: ridge;
@@ -107,7 +95,6 @@ background: rgba(25, 28, 32, 0.5);
   
 }
 .ctabox p {
-  color:white;
   text-align: center;
   padding: 10px;
   font-size: 3em;
@@ -131,16 +118,12 @@ background: rgba(25, 28, 32, 0.5);
   appearance: none;
   background: none;
   border: none;
-  
   flex-wrap: nowrap;
 }
 
-
-
 .googlebutton img{
-  
-height: 80%;
-width: 80%;
+  height: 80%;
+  width: 80%;
 }
 .applebutton img {
  
@@ -148,21 +131,21 @@ width: 80%;
   width: 65%;
 }
 
+/* FEATURE SECTION */
+
 .appsection {
-background-color: #fff;
-background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  
+  background-color: #fff;
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
   color: black;
   
   
 }
 .gifsection {
-flex-direction: row;
-text-align: center;
-align-items: center;
-display: flex;
-justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .sectionheader {
@@ -173,61 +156,53 @@ justify-content: space-around;
   
 }
 .appsection img {
-
- height: 550px;
- width: 100%;
+  height: 550px;
+  width: 100%;
 
 }
 .featuregif {
   flex-wrap: wrap;
   width: 300px;
 }
+
+/* ABOUT SECTION */
+
+
 .about {
-background-color: #191c20;
-/* background-image: url("https://www.transparenttextures.com/patterns/gplay.png"); */
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  background-color: #191C20;
+  background-color: #191c20;
   text-align: center;
   font-size: 2em;
- 
-  
 }
 
 
-.about img {
-  
+.about img { 
   height: 450px;
   transform: rotate(10deg);
 }
 
 .contact {
-background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
   background-color:white;
-color:black;
-font-size: 0.8em;
-text-align: center;
+  color:black;
+  font-size: 0.8em;
+  text-align: center;
 }
 
 
 
 @media(max-width: 1100px) {
-
 p {
   font-size: 1em;
 }
 
 .gifsection {
-    display: block;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
- 
-    
-    text-align: center;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .featuregif {
-
   height: auto;
   width: auto;
 }
@@ -236,19 +211,19 @@ p {
   justify-self: center;
   width: auto;
 }
-  header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items:center;
-    text-align: center;
-    height: auto;
- 
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  text-align: center;
+  height: auto;
   }
-  ul {
-    padding-left: 0;
-  
+
+ul {
+  padding-left: 0;
   }
-  .menu {
+
+.menu {
   flex-basis: 100%;
   padding-left: 0;
   display: flex;
@@ -257,37 +232,40 @@ p {
   justify-content: center;
   padding-bottom: 8px;
   }
-  .logo-text {
-    margin-top: 0;
-    margin-left: 0;
-    justify-content: center;
-    flex-wrap: wrap;
-   display: flex;
-    text-align: center;
+
+.logo-text {
+  margin-top: 0;
+   margin-left: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
   }
-  .logo-text img {
-    height: 800%;
-    width: 80%;
+
+.logo-text img {
+  height: 800%;
+  width: 80%;
   }
-  .logo-text h1 {
-    margin: 0;
-    flex-basis: 100%;
+
+.logo-text h1 {
+  margin: 0;
+  flex-basis: 100%;
   }
-  .calltoaction {
-    background-image: url("./klatrecropped.jpg");
-    
-    background-size: cover;
-    margin: auto;
-    display: flex;
+.calltoaction {
+  background-image: url("./klatrecropped.jpg");
+  background-size: cover;
+  margin: auto;
+  display: flex;
   }
-  .ctabox p {
-    font-size: 2.2em;
+
+.ctabox p {
+  font-size: 2.2em;
   }
  
 }
 
 @media(max-width: 500px) {
- .featuregif img {
+.featuregif img {
   justify-self: center;
   width:100%;
   height: 100%;
