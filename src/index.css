@@ -222,6 +222,8 @@ p {
     text-align: center;
     align-items: center;
  
+    
+    text-align: center;
 }
 
 .featuregif {
@@ -284,11 +286,10 @@ p {
  
 }
 
-/* @media(max-width: 1250px) {
- .gifsection {
-    display: block;
-    justify-content: center;
-    text-align: center;
-  } */
-/* 
-} */
+@media(max-width: 500px) {
+ .featuregif img {
+  justify-self: center;
+  width:100%;
+  height: 100%;
+}
+}
